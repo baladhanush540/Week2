@@ -1,0 +1,19 @@
+package day8;
+
+public class New {
+	void property()
+	{
+		System.out.println("House,Lands");
+	}
+}
+class son extends New{
+	void show()
+	{
+		System.out.println("Bike");
+	}
+class Daughter extends New{
+	void display(){
+		System.out.println("Jwells");
+	}
+}
+}
