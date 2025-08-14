@@ -1,0 +1,37 @@
+package day8;
+
+public class Trip {
+	String place1="Ooty";
+	String hotel="lakshmi lodge";
+	int price1=2500;
+	String visit="Hill Station";
+	
+	String place2="METTUPALAYAM";
+	String hotel2="Ramu lodge";
+	int price2=2500;
+	String visit2="Black Thunder";
+	
+	String place3="Palakad";
+	String hotel3="kalyan lodge";
+	int price3=2500;
+	String visit3="malapuzham dam";
+	
+	public static void main(String args[]) {
+		Trip obj=new Trip();
+		System.out.println(obj.place1);
+		Trip obj1=new Trip();
+		System.out.println(obj1.hotel);
+		Trip obj2=new Trip();
+		System.out.println(obj2.visit);
+		Trip obj3=new Trip();
+		System.out.println(obj3.place2);
+		Trip obj4=new Trip();
+		System.out.println(obj4.hotel2);
+		Trip obj5=new Trip();
+		System.out.println(obj5.visit2);
+		Trip obj6=new Trip();
+		System.out.println(obj6.price2);
+		
+	}
+	
+}
