@@ -1,0 +1,21 @@
+package day9;
+import java.util.Scanner;
+public class Test13 {
+	public static void main(String args[]) 
+	{
+	Scanner sc=new Scanner(System.in);
+	int arr[]= {7,6,8,16,12,3};
+	int n=arr.length;
+	int[] orginal=new int[n];
+	orginal[n-1] = arr[n-1];
+	for(int i=n-2;i>=0;i--) 
+	{
+		orginal[i]=arr[i]-orginal[i+1];
+		
+	}
+	for(int num:orginal)
+	{
+		System.out.println(num+" ");
+	}
+	}
+}
