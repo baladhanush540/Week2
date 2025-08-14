@@ -1,0 +1,20 @@
+package day8;
+
+public class Staticsimple {
+	int rno=55;
+	String name="Dhanush";
+	String collegename="Mount";
+	void display(int a,String name)
+	{
+		System.out.println(a+""+name+""+collegename);
+	}
+	
+	static {
+		System.out.println("Mountzion");
+	
+	}
+	public static void main(String args[]) {
+		System.out.println("Nice to meet you");
+	}
+
+}
