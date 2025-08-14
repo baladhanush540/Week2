@@ -1,0 +1,14 @@
+package day8;
+
+public class Single {
+	void property()
+	{
+		System.out.println("House,Lands");
+	}
+}
+class son extends Single{
+	void show()
+	{
+		System.out.println("Bike");
+	}
+}
