@@ -1,0 +1,21 @@
+package day8;
+
+public class Constru {
+   Constru()
+   {
+	 System.out.println("");  
+   }
+   Constru(int a,int String )
+   {
+	   System.out.println(a+" ");
+   }
+   Constru(float b){
+	System.out.println(b);   
+   }
+   public static void main
+   {
+	   Constru obj=new Constru();
+	   obj.display();
+  }
+}
+
